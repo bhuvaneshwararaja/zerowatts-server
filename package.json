@@ -1,0 +1,23 @@
+{
+  "name": "zerowatts-app",
+  "version": "1.0.0",
+  "description": "code learning plateform",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhuvaneshwararaja/zerowatts.git"
+  },
+  "keywords": [
+    "zerowatts"
+  ],
+  "author": "bhuvanesh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bhuvaneshwararaja/zerowatts/issues"
+  },
+  "homepage": "https://github.com/bhuvaneshwararaja/zerowatts#readme"
+}
