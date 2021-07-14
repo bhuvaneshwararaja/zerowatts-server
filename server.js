@@ -13,7 +13,6 @@ mongoose.connect(process.env.DB_URL,{useNewUrlParser:true,useUnifiedTopology:"tr
 
 app.use("/api/user/",authRoute);
 
-
 app.listen(8080,() => {
     console.log("server start at 8080");
 })
