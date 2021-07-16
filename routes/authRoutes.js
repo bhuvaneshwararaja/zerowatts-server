@@ -11,7 +11,6 @@ authRoute.post("/signup",async (req,res) => {
        password:hashpassword
    })
    const saveuser = await user.save();
-   res.send(saveuser);
 })
 
 module.exports = authRoute;
